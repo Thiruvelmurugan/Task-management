@@ -1,0 +1,61 @@
+.taskmanagement {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    min-height: 100vh; /* Full height of the viewport */
+    padding-top: 20px; /* Add some padding at the top */
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for better layout */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 20px; /* Add spacing below the heading */
+}
+
+.modal-dialog {
+    max-width: 600px; /* Limit modal width for better appearance */
+    margin: auto; /* Center modal dialog */
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%; /* Perfect circles */
+    color: white;
+    font-weight: 600; /* Corrected font-weight */
+    font-size: 25px;
+    border: none;
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Default shadow */
+}
+
+.circle:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
+}
+
+.circle:active {
+    transform: scale(0.95); /* Slightly scale down on click */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+}
+
+.circle:focus {
+    outline: 2px solid #fff; /* Visible outline on focus */
+}
+.component{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+img{
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+    
+}
+
+  
